@@ -13,6 +13,6 @@ do
 	KEY=$SEC_YOU
 	echo "NEW ..............." $KEY
 	echo $SEC_YOU
-	ffmpeg -re -i xx.mp4 -c:v libx264 -b:v 750k -c:a copy -strict -2 -flags +global_header -bsf:a aac_adtstoasc -bufsize 2100k -f flv rtmp://a.rtmp.youtube.com/live2/$KEY
+	ffmpeg -re -i xx.mp4 -c:v libx264 -b:v 900k -c:a copy -strict -2 -flags +global_header -bsf:a aac_adtstoasc -bufsize 2100k -f flv rtmp://a.rtmp.youtube.com/live2/$KEY
 	# python3 google_let.py
 done
