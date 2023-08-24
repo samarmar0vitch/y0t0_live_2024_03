@@ -21,11 +21,11 @@ RUN apt-get update \
 ADD ./etc/ /etc/
 
 COPY ./etc/sync.conf /etc/supervisor/conf.d/
-COPY ./etc/re.conf /etc/supervisor/conf.d/
-COPY ./etc/apashe.conf /etc/supervisor/conf.d/
+#COPY ./etc/re.conf /etc/supervisor/conf.d/
+#COPY ./etc/apashe.conf /etc/supervisor/conf.d/
 COPY ./etc/supervisor/supervisord.conf /etc/supervisor/
 
-COPY cnf/vsftpd.conf /etc/vsftpd.conf
+#COPY cnf/vsftpd.conf /etc/vsftpd.conf
 
 COPY src/ /var/www/html/
 
@@ -57,7 +57,7 @@ RUN echo "www-data:12pass12" | /usr/sbin/chpasswd
 RUN chown -R www-data:www-data /var/www
 
 WORKDIR /var/www
-EXPOSE 21 80 9001
+EXPOSE 8000 9001
 # USER www-data
 ENTRYPOINT [ "/usr/bin/tini", "--", "/dockerstartup/startup.sh" ]
 
