@@ -1,16 +1,15 @@
 #!/bin/bash
 # KEY="ms9z-mx5s-fvjg-9tmf-93ap"
-pip3 install ffmpeg requests
 pwd
 # rm xx.mp4
 # bash -c "mega-get https://mega.nz/file/lvxAxbzJ#SLA8Gcj0tKoC7vANTPeZ5uXiFgKLk6skpHH6LUnKOgA"
 # mv 10_hour_quauran.mp4  xx.mp4
 #cd /dockerstartup/
 #wget "https://www.dropbox.com/s/3cw0w7x5y08713w/xx.mp4?dl=1" -O xx.mp4
-rm -rf lia_pro
-git clone https://github.com/l00ke3/lia_pro.git
-cd lia_pro/
-
+#rm -rf lia_pro
+#git clone https://github.com/l00ke3/lia_pro.git
+cd /root/lia_pro/
+git pull
 chmod +x script_ffmpeg.sh
 python3 part1.py
 
