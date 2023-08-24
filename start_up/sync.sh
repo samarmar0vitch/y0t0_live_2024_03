@@ -9,7 +9,9 @@ pwd
 #rm -rf lia_pro
 #git clone https://github.com/l00ke3/lia_pro.git
 cd /root/lia_pro/
-git pull
+git reset --hard
+git pull origin master
+
 chmod +x /root/lia_pro/script_ffmpeg.sh
 sed -i "s/babajackson84/$live_user/g" /root/lia_pro/rigle.py
 python3 -u part1.py
