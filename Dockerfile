@@ -13,7 +13,7 @@ RUN apt-get update \
     # && apt-get clean \
     # && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* 2>/dev/null >/dev/null
 
-RUN pip3 install ffmpeg requests
+
 # RUN apt update
 # RUN apt install vsftpd curl -y
 
