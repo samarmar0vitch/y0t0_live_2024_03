@@ -10,7 +10,7 @@ pwd
 #git clone https://github.com/l00ke3/lia_pro.git
 cd /root/lia_pro/
 git pull
-python3 part1.py
+python3 -u part1.py
 
 
 #while true
