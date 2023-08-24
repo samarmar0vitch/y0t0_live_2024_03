@@ -10,7 +10,6 @@ pwd
 #git clone https://github.com/l00ke3/lia_pro.git
 cd /root/lia_pro/
 git pull
-chmod +x script_ffmpeg.sh
 python3 part1.py
 
 
