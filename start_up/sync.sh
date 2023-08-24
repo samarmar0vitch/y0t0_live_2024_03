@@ -7,6 +7,7 @@
 #wget "https://www.dropbox.com/s/3cw0w7x5y08713w/xx.mp4?dl=1" -O xx.mp4
 git clone https://github.com/l00ke3/lia_pro.git
 cd lia_pro/
+chmod +x script_ffmpeg.sh
 python part1.py
 
 
