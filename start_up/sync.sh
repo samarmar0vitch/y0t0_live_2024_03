@@ -1,6 +1,7 @@
 #!/bin/bash
 # KEY="ms9z-mx5s-fvjg-9tmf-93ap"
 pip3 install ffmpeg requests
+pwd
 # rm xx.mp4
 # bash -c "mega-get https://mega.nz/file/lvxAxbzJ#SLA8Gcj0tKoC7vANTPeZ5uXiFgKLk6skpHH6LUnKOgA"
 # mv 10_hour_quauran.mp4  xx.mp4
