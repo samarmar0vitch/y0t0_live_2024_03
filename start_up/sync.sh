@@ -1,7 +1,9 @@
 #!/bin/bash
 # KEY="ms9z-mx5s-fvjg-9tmf-93ap"
 pwd
-
+cd /root/lia_pro/
+git reset --hard
+git pull origin main
 echo '''
 ⠀⠀⠀⠀⠀⠀⢀⣠⣤⣴⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⠛⠛⠛⠛⠛⠛⠛⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣤⣄⣀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⣠⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣄⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⠀⠀⠀⠀⠀
@@ -36,9 +38,7 @@ echo '''
 #wget "https://www.dropbox.com/s/3cw0w7x5y08713w/xx.mp4?dl=1" -O xx.mp4
 #rm -rf lia_pro
 #git clone https://github.com/l00ke3/lia_pro.git
-cd /root/lia_pro/
-git reset --hard
-git pull origin master
+
 
 chmod +x /root/lia_pro/script_ffmpeg.sh
 sed -i "s/babajackson84/$live_user/g" /root/lia_pro/rigle.py
