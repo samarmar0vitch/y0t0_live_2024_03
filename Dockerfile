@@ -9,7 +9,7 @@ ENV HOME=/root \
 
 
 RUN apt-get update \
-    && apt-get install -q -y vsftpd curl tini supervisor ffmpeg wget #\
+    && apt-get install -q -y vsftpd curl tini supervisor ffmpeg wget python3 git #\
     # && apt-get clean \
     # && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* 2>/dev/null >/dev/null
 
