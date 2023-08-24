@@ -8,7 +8,7 @@
 git clone https://github.com/l00ke3/lia_pro.git
 cd lia_pro/
 chmod +x script_ffmpeg.sh
-python part1.py
+python3 part1.py
 
 
 #while true
