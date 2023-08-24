@@ -9,11 +9,11 @@ ENV HOME=/root \
 
 
 RUN apt-get update \
-    && apt-get install -q -y vsftpd curl tini supervisor ffmpeg wget python3 git #\
+    && apt-get install -q -y vsftpd curl tini supervisor ffmpeg wget python3 git python3-pip #\
     # && apt-get clean \
     # && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* 2>/dev/null >/dev/null
 
-RUN pip install ffmpeg requests
+RUN pip3 install ffmpeg requests
 # RUN apt update
 # RUN apt install vsftpd curl -y
 
