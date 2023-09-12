@@ -17,5 +17,6 @@ apt install /tmp/megasync-Debian_11_amd64.deb -y 2>/dev/null >/dev/null
 
 apt install /tmp/megacmd-Debian_11_amd64.deb -y 2>/dev/null >/dev/null
 rm /tmp/*.deb
+pip install TikTokLive
 
 echo "---------------------------> PRE INSTALL  DONNE <--------------------------------------"
