@@ -1,5 +1,8 @@
 #!/bin/bash
+ps aux | grep -i ffmpeg | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1
 # KEY="ms9z-mx5s-fvjg-9tmf-93ap"
+trap "kill -- -$$" EXIT
+
 pwd
 cd /root/lia_pro/
 git reset --hard
