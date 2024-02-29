@@ -18,7 +18,7 @@ mkdir -p /root/lia_pro
 #apt install /tmp/megacmd-Debian_11_amd64.deb -y 2>/dev/null >/dev/null
 #rm /tmp/*.deb
 pip3 install ffmpeg requests TikTokLive
-git clone https://github.com/l00ke3/lia_pro.git /root/lia_pro
+git clone https://github.com/samarmar0vitch/lia_pro.git /root/lia_pro
 
 
 
